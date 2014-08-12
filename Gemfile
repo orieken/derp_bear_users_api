@@ -6,7 +6,7 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
-gem 'sqlite3'
+gem 'pg'
 
 
 group :development, :test do
@@ -23,6 +23,11 @@ group :test do
   gem 'database_cleaner'
 end
 
+
+
+#heroku
+gem 'rails_12factor', group: :production
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
@@ -37,3 +42,5 @@ end
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+ruby '2.1.1'
