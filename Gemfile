@@ -27,6 +27,8 @@ end
 
 #heroku
 gem 'rails_12factor', group: :production
+gem 'fitgem'
+gem 'omniauth-fitbit'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
