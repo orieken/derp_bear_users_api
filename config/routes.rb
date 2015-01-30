@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :experiences, except: [:new, :edit]
+  resources :skills, except: [:new, :edit]
   resources :fitbits, except: [:new, :edit]
   resources :users, except: [:new, :edit]
   resources :tasks, except: [:new, :edit]
