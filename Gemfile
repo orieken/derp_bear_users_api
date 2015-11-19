@@ -45,4 +45,4 @@ gem 'omniauth-fitbit'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-ruby '2.1.1'
+ruby '2.1.7'
