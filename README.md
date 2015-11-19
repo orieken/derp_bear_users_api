@@ -5,3 +5,5 @@ derp_bear_users_api
 
 
 playing around with rails api 
+
+[deployed here](derp-bear-users-api.herokuapp.com)
